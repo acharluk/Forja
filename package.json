@@ -1,0 +1,14 @@
+{
+  "name": "@forja/sql",
+  "module": "./dist/index.js",
+  "devDependencies": {},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "examples": "bun run ./examples",
+    "bun:build": "bun build src/index.ts --target bun --format esm --outdir dist",
+    "node:build": "tsc --build tsconfig.build.json"
+  },
+  "type": "module"
+}
