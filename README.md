@@ -2,6 +2,11 @@
 
 Forja is a schema-aware SQL toolkit for TypeScript and Bun projects. It keeps your table definitions, DDL, and CRUD statements in sync while still shipping plain SQL strings that work with any driver.
 
+## Disclaimer
+
+This project is an experiment I built to learn about TypeScript meta-programming. It is not intended for production use.
+
+
 ## Why Forja?
 
 - **Typed tables end-to-end** – declare tables once with `Table` and reuse the types across inserts, selects, updates, and deletes.
